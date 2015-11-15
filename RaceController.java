@@ -1,8 +1,8 @@
 import javax.swing.*;
 
 /**
- * @author: clr45
- * Controls the running of the main HorseRace thread.
+ * @clr45
+ * acts as the controller handling the interaction between the user and the main horse race frame.
  */
 public class RaceController {
 
@@ -10,8 +10,10 @@ public class RaceController {
         new RaceController();
     }
     public RaceController(){
+    /*Constructor*/
         JFrame mFrame = new RacePanel();
         mFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         mFrame.setVisible(true);
     }
+
 }
